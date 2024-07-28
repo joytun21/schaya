@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-REPO="https://raw.githubusercontent.com/Felixind/schaya/main/"
+REPO="https://raw.githubusercontent.com/joytun21/schaya/main/"
 red='\e[1;31m'
 green='\e[1;32m'
 yell='\e[1;33m'
