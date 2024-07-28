@@ -1,4 +1,4 @@
-# `Auto Script Free By NUSANTARA TUNNELING
+# `Auto Script Free By JOY TUNNELING
 
 ## `NOTE !`
 - Tidak Untuk Di Perjual Belikan
@@ -11,5 +11,5 @@
 
 ## `INSTALL SCRIPT`
 ```
-wget -q https://raw.githubusercontent.com/Felixind/schaya/main/main.sh && chmod +x main.sh && ./main.sh
+wget -q https://raw.githubusercontent.com/joytun21/schaya/main/main.sh && chmod +x main.sh && ./main.sh
 ```
