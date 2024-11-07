@@ -100,13 +100,13 @@ bash acme.sh --issue -d $domain --server letsencrypt --keylength ec-256 --fullch
 clear
 echo -e "${GB}[ INFO ]${NC} ${YB}Setup Nginx & Xray Conf${NC}"
 echo "UQ3w2q98BItd3DPgyctdoJw4cqQFmY59ppiDQdqMKbw=" > /usr/local/etc/xray/serverpsk
-wget -q -O /usr/local/etc/xray/config.json https://raw.githubusercontent.com/joytun21/schaya/main/other/config.json
-wget -q -O /etc/nginx/nginx.conf https://raw.githubusercontent.com/joytun21/schaya/main/other/nginx.conf
+wget -q -O /usr/local/etc/xray/config.json https://raw.githubusercontent.com/joytun21/schaya/master/other/config.json
+wget -q -O /etc/nginx/nginx.conf https://raw.githubusercontent.com/joytun21/schaya/master/other/nginx.conf
 rm -rf /etc/nginx/conf.d/xray.conf
-wget -q -O /etc/nginx/conf.d/xray.conf https://raw.githubusercontent.com/joytun21/schaya/main/other/xray.conf
+wget -q -O /etc/nginx/conf.d/xray.conf https://raw.githubusercontent.com/joytun21/schaya/master/other/xray.conf
 systemctl restart nginx
 systemctl restart xray
-wget -O /var/www/html/index.html "https://raw.githubusercontent.com/joytun21/schaya/main/other/other/index"
+wget -O /var/www/html/index.html "https://raw.githubusercontent.com/joytun21/schaya/master/other/other/index"
 echo -e "${GB}[ INFO ]${NC} ${YB}Setup Done${NC}"
 sleep 2
 clear
