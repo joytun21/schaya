@@ -13,13 +13,13 @@ NC='\e[0m'
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/joytun21/schaya/main/bot.zip
+wget https://raw.githubusercontent.com/joytun21/schaya/main/other/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget -q -O kyt.zip "https://raw.githubusercontent.com/joytun21/schaya/main/xbot.zip"
+wget -q -O kyt.zip "https://raw.githubusercontent.com/joytun21/schaya/main/other/xbot.zip"
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
