@@ -1,0 +1,5 @@
+#!/bin/bash
+read -sp "Masukkan password AES: " AES_PASS
+echo
+SCRIPT_ENC="$(dirname "$0")/mahabbu"
+openssl enc -d -aes-256-cbc -pbkdf2 -in "$SCRIPT_ENC" -k "$AES_PASS" | bash
