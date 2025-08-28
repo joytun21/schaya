@@ -16,6 +16,15 @@ curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahabbu
 curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub
 chmod +x uhibbu mahabbu mahbub
 ```
-
+# Next
+- Install
+```
+./mahbub
+```
+# Next
+- install
+```
+./uhibbu
+```
 
 
