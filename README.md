@@ -11,14 +11,14 @@
 # Installation
 - via WGET
 ```
-apt update -y && apt upgrade -y
-apt install -y curl wget unzip dos2unix sudo gnupg lsb-release software-properties-common build-essential
-apt install -y libcap-ng-dev libssl-dev libffi-dev python3 python3-pip
-systemctl --version
-curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/uhibbu
-curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahabbu
-curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub
-chmod +x uhibbu mahabbu mahbub
+apt update --allow-releaseinfo-change -y && apt upgrade -y && \
+apt install -y curl wget unzip dos2unix sudo gnupg lsb-release software-properties-common build-essential libcap-ng-dev libssl-dev libffi-dev python3 python3-pip && \
+echo -e "\nDependencies terinstall\n" && \
+curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/uhibbu && \
+curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahabbu && \
+curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub && \
+chmod +x uhibbu mahabbu mahbub && \
+echo -e "Download & chmod selesai! Urutan eksekusi: ./mahbub -> ./uhibbu -> AES decrypt mahabbu"
 ```
 # Next
 - Install
