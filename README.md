@@ -2,7 +2,7 @@
 2019-06-19
 # AUTOSCRIPT V3
 
-# Hubungi saya jika anda Tertari
+# Hubungi saya jika anda Tertarik
 # Telegram/WhatsApp
 [![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/joysvpnstore/)
 [![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/+29-pKOGfLKwwYzI9)
@@ -11,6 +11,10 @@
 # Installation
 - via WGET
 ```
+apt update -y && apt upgrade -y
+apt install -y curl wget unzip dos2unix sudo gnupg lsb-release software-properties-common build-essential
+apt install -y libcap-ng-dev libssl-dev libffi-dev python3 python3-pip
+systemctl --version
 curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/uhibbu
 curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahabbu
 curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub
