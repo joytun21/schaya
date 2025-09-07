@@ -1,5 +1,3 @@
-## Kami Dari Masa Depan
-2019-06-19
 # AUTOSCRIPT V3
 
 # Hubungi saya jika anda Tertarik
