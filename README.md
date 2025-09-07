@@ -30,22 +30,3 @@ echo -e "Download & chmod selesai! Urutan eksekusi: ./mahbub -> ./uhibbu -> AES 
 ```
 ./uhibbu
 ```
-
-
-curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahabbu && \
-curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub && \
-chmod +x uhibbu mahabbu mahbub && \
-echo -e "Download & chmod selesai! Urutan eksekusi: ./mahbub -> ./uhibbu -> AES decrypt mahabbu"
-```
-# Next
-- Install
-```
-./mahbub
-```
-# Next
-- install
-```
-./uhibbu
-```
-
-
