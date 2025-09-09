@@ -5,7 +5,7 @@
 [![WhatsApp-Chat](https://img.shields.io/badge/Chat-WhatsApp-blue)](https://wa.me/6283877140463/)
 
 # AUTOSCRIPT V3
-![Auto Script](https://raw.githubusercontent.com/joytun21/joy/main/image/uchiha.jpg)
+![Auto Script](https://raw.githubusercontent.com/joytun21/joy/main/image/xtrimer.jpg)
 
 
 # Installation
