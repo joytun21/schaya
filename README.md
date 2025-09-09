@@ -4,7 +4,7 @@
 [![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/+29-pKOGfLKwwYzI9)
 [![WhatsApp-Chat](https://img.shields.io/badge/Chat-WhatsApp-blue)](https://wa.me/6283877140463/)
 
-# AUTOSCRIPT V3
+# AUTOSCRIPT V4.6
 ![Auto Script](https://raw.githubusercontent.com/joytun21/joy/main/image/xtrimer.jpg)
 
 
