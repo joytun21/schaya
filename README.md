@@ -5,7 +5,7 @@
 [![WhatsApp-Chat](https://img.shields.io/badge/Chat-WhatsApp-blue)](https://wa.me/6283877140463/)
 
 # AUTOSCRIPT V4.6
-![Auto Script](https://raw.githubusercontent.com/joytun21/joy/main/image/xtrimer.jpg)
+![Auto Script](https://raw.githubusercontent.com/joytun21/joy/main/image/VpnTunnel.jpg)
 
 
 # Installation
