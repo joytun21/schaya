@@ -22,13 +22,3 @@ curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub && \
 chmod +x mahbub && \
 ./mahbub
 ```
-# Next
-- Install
-```
-./mahbub
-```
-# Next
-- install
-```
-./uhibbu
-```
