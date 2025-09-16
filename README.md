@@ -7,7 +7,8 @@
 # AUTOSCRIPT V4.6
 ![Auto Script](https://raw.githubusercontent.com/joytun21/joy/main/image/VpnTunnel.jpg)
 
-
+### TESTED ON OS 
+- DEBIAN 10/11/12/13 & UBUNTU 20/22/24/25
 # Installation
 - via WGET
 ```
