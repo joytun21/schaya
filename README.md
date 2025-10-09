@@ -52,3 +52,18 @@ echo -e "\nDependencies terinstall\n" && \
 curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub && \
 chmod +x mahbub && \
 ./mahbub
+
+## 💖 Dukung Pengembangan
+
+Bantu saya terus kembangkan proyek ini agar tetap **gratis**, **stabil**, dan **berkembang lebih lanjut** 🚀  
+Semua dukungan akan digunakan untuk biaya server, domain, dan pengembangan fitur baru.
+
+| Platform Donasi | Link |
+|------------------|------|
+| Saweria | [![Saweria](https://img.shields.io/badge/Donasi-Saweria-orange?logo=buymeacoffee&logoColor=white)](https://saweria.co/Xtrimer) |
+
+<p align="center">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=230x230&data=https://saweria.co/Xtrimer" alt="Saweria QR" width="230" height="230">
+</p>
+
+> 💬 *Terima kasih banyak untuk setiap dukunganmu. Sedikit dari kamu sangat berarti untuk kelangsungan proyek ini!* 🙏
