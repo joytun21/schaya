@@ -52,7 +52,7 @@ echo -e "\nDependencies terinstall\n" && \
 curl -s -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub && \
 chmod +x mahbub && \
 ./mahbub
-
+```
 ## 💖 Dukung Pengembangan
 
 Bantu saya terus kembangkan proyek ini agar tetap **gratis**, **stabil**, dan **berkembang lebih lanjut** 🚀  
