@@ -10,7 +10,7 @@
 |----------|------|
 | Telegram Chat | [![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/joyhayabuse/) |
 | Telegram Grup | [![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/+29-pKOGfLKwwYzI9) |
-| WhatsApp Chat | [![WhatsApp-Chat](https://img.shields.io/badge/Chat-WhatsApp-green)](https://wa.me/62/) |
+| WhatsApp Chat | [![WhatsApp-Chat](https://img.shields.io/badge/Chat-WhatsApp-green)](https://t.me/RegisAkses_bot/) |
 
 ---
 
