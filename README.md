@@ -52,6 +52,15 @@ curl -fsSL -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub && \
 chmod +x mahbub && \
 ./mahbub
 ```
+## ⚖️ MSG Deb-13
+```
+sed -i '/mesg n/d' ~/.bashrc ~/.profile 2>/dev/null
+```
+## 💎 DNS PING
+```
+echo "nameserver 1.1.1.1" > /etc/resolv.conf
+bash -c 'echo -e "[Resolve]\nDNS=1.1.1.1" > /etc/systemd/resolved.conf && systemctl enable systemd-resolved'
+```
 ## 💖 Dukung Pengembangan
 
 Bantu saya terus kembangkan proyek ini agar tetap **gratis**, **stabil**, dan **berkembang lebih lanjut** 🚀  
