@@ -52,6 +52,10 @@ curl -fsSL -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub && \
 chmod +x mahbub && \
 ./mahbub
 ```
+## 📲 Prioritas IP4
+```
+sed -i 's/#precedence ::ffff:0:0\/96  100/precedence ::ffff:0:0\/96  100/' /etc/gai.conf
+```
 ## ⚖️ MSG Deb-13
 ```
 sed -i '/mesg n/d' ~/.bashrc ~/.profile 2>/dev/null
