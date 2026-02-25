@@ -1,7 +1,5 @@
 # 📖 AUTOSCRIPT V4.6
 
-![Auto Script](https://raw.githubusercontent.com/joytun21/joy/main/image/VpnTunnel.jpg)
-
 ---
 
 ## 📱 Hubungi Saya
