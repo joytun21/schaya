@@ -50,6 +50,40 @@ curl -fsSL -O https://raw.githubusercontent.com/joytun21/schaya/main/mahbub && \
 chmod +x mahbub && \
 ./mahbub
 ```
+## 📈 Kernel News
+```
+sed -i '/fs.file-max/d; /net.core.default_qdisc/d; /net.ipv4.tcp_congestion_control/d' /etc/sysctl.conf
+cat << 'EOF' >> /etc/sysctl.conf
+
+# Optimasi batasan file dan antrean network
+fs.file-max = 2097152
+net.core.netdev_max_backlog = 250000
+net.core.somaxconn = 65535
+
+# Memperlebar Buffer RAM untuk Kirim/Terima Paket Data (Anti-Lemes)
+net.core.rmem_default = 262144
+net.core.wmem_default = 262144
+net.core.rmem_max = 67108864
+net.core.wmem_max = 67108864
+
+# Optimasi Alokasi Memory TCP (Min, Default, Max)
+net.ipv4.tcp_rmem = 4096 87380 67108864
+net.ipv4.tcp_wmem = 4096 65536 67108864
+
+# Mempercepat pembersihan koneksi yang menggantung (Time-Wait)
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 65535
+net.ipv4.tcp_max_tw_buckets = 2000000
+
+# Mengaktifkan BBR dan Fast Open untuk menekan Ping
+net.core.default_qdisc = fq
+net.ipv4.tcp_congestion_control = bbr
+net.ipv4.tcp_fastopen = 3
+EOF
+
+sysctl -p && ulimit -n 65535
+```
 ## 📲 Prioritas IP4
 ```
 sed -i 's/#precedence ::ffff:0:0\/96  100/precedence ::ffff:0:0\/96  100/' /etc/gai.conf
